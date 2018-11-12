@@ -1,0 +1,6 @@
+{
+  "hosting": {
+    "public": "public/build/esm-bundled",
+    "ignore": ["firebase.json", "**/.*"]
+  }
+}

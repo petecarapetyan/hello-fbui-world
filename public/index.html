@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes"
+    />
+
+    <title>Hello FirebaseUI World</title>
+    <meta name="description" content="e description" />
+
+    <!-- See https://goo.gl/OOhYW5 -->
+    <link rel="manifest" href="/manifest.json" />
+
+    <script src="/node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/5.5.7/firebase.js"></script>
+    <script>
+      // Initialize Firebase - replace with your own:
+      var config = {
+        apiKey: "AIzaSyBse0Wxe7vwqHrQvzxfx2c9Ib4k143C7cQ",
+        authDomain: "df-lab.firebaseapp.com",
+        databaseURL: "https://df-lab.firebaseio.com",
+        projectId: "df-lab",
+        storageBucket: "df-lab.appspot.com",
+        messagingSenderId: "561714533233"
+      };
+      firebase.initializeApp(config);
+    </script>
+    <script src="https://cdn.firebase.com/libs/firebaseui/3.4.1/firebaseui.js"></script>
+    <script src="/node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+
+    <script type="module" src="/src/hello-world.js" crossorigin></script>
+  </head>
+  <body>
+    <hello-world></hello-world>
+  </body>
+</html>
