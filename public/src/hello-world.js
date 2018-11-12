@@ -14,6 +14,12 @@ class HelloWorld extends LitElement {
         }
       </style>
       <h2>Hello <em> ${this.prop1}</em>!</h2>
+      <p>
+        <small>
+          Logins shown are not functional unless also enabled on Firebase and in
+          some cases, their respective platforms.</small
+        >
+      </p>
       <div id="firebaseui-auth-container"></div>
       <p>
         This is a dumbed-down approach to stuffing FirebaseUI into a web
