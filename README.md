@@ -1,4 +1,10 @@
-# hello-fbui-world
+# INACTIVE
+
+This project is inactive, out of date, and should not be used.
+
+It was probably working, once. But that was many versions of dependencies previous to current, among other issues.
+
+## hello-fbui-world
 
 Hello world for firebaseUI, using LitElement web component.
 
